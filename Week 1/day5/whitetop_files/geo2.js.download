@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "PETACHTIKVAH",
+      'continent': "AS",
+      'country': "IL",
+      'region': ""
+    },
+    'ip':"37.142.166.74"
+  }]);
+})
+//
+()
+
+;
