@@ -1,0 +1,15 @@
+table {
+	background-color: red;
+}
+
+#about{
+	color: red;
+}
+.favourite{
+	background-color: blue;
+	padding: 50px
+
+}
+div > h1 {
+	background-color: pink;
+}

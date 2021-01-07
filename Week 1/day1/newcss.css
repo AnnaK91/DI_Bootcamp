@@ -1,0 +1,12 @@
+p {
+	font-style: italic; text-decoration: underline;
+}
+
+div {
+	background-color: #C0F7D7;
+	border: solid;
+	border-color: green;
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
+}
