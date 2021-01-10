@@ -1,0 +1,11 @@
+body {
+    background-image: url("flower.jpg");
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 400px;
+}
+nav {
+    max-width: 600px;
+    margin: 0px;
+}
