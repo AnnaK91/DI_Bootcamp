@@ -1,0 +1,7 @@
+body {
+    .pattern-checks-sm {
+        background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
+        background-position: 0 0, 10px 10px;
+        background-size: calc(2 * 10px) calc(2 * 10px);
+      }
+}

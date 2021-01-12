@@ -4,20 +4,29 @@
 	justify-content: center;
 
 }
-
 div {
 	background-color: pink;
 	margin: 10px;
 	padding: 20px;
 	font-size: 30px;
-	}
-
+}
 
 .firstbox {
-
-
+	align-self: flex-start;
+	width: 100px;
 }
+
+
 .secondbox {
 	align-self: center;
 	width: 200px;
 }
+
+.thirdbox {
+	align-self: flex-start;
+}
+
+@media (max-width: 800px) {
+	.flex-container {
+	  flex-direction: column;
+	}
