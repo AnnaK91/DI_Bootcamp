@@ -1,0 +1,13 @@
+.container {
+    border 1px solid black;
+}
+
+.row {
+    border: 0.5px solid black;
+    margin: auto;
+
+}
+
+.col-6 col-md-4 {
+    
+}

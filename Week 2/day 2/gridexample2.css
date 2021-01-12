@@ -2,62 +2,58 @@
 
     grid-area: header; 
     background-color: teal;
-    padding: 10px;
     font-size: 150%;
     }
 
 .item2 { 
     grid-area: hero;
     background-color: tomato;
-    padding: 10px;
 
 }
 .item3 {
     grid-area: main;
     background-color: violet;
-    padding: 10px;
 
 }
 .item4 { 
     grid-area: sidebar;
     background-color: yellow;
-    padding: 10px;
 
 }
 .item5 {
      grid-area: extra;
      background-color: blue;
-     padding: 10px;
 
     }
 .item6 { 
     grid-area: images;
     background-color: brown;
-    padding: 10px;
 
 }
 .item7 { 
     grid-area: posts;
     background-color: cadetblue;
-    padding: 10px;
 
 }
 .item8 { 
     grid-area: footer;
     background-color: chartreuse;
-    padding: 10px;
 
 }
 
+.grid-container > div {
+
+    padding: 10px;}
 
 .grid-container {
     display: grid;
     grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);;
     grid-template-areas: 
     "header header header"
     "hero main main"
     "sidebar main main"
-    "sidebar content content"
     "sidebar extra extra"
     "images images posts"
     "footer footer footer"
