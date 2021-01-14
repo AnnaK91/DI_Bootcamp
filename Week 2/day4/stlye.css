@@ -1,0 +1,17 @@
+.grid-container {
+    display:grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "headline headline headline"
+    "headtext1 headtext2 headtext3"
+    "textbox1 textbox2 textbox3"
+
+}
+
+.headline {
+    justify-content: center;
+    align-self: center;
+}
