@@ -1,0 +1,192 @@
+.box-container > div {
+    margin: 50px;
+    border: solid black 1px;
+    padding: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    transition:all 0.8s ease;
+}
+
+/* .box-container > div > text {
+
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    justify-content: center;
+} */
+
+
+.fade {
+
+    background-color:  rgb(255, 232, 0);
+    opacity: 0.5;
+
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.change {
+
+    background-color:  rgb(255, 215, 0);
+
+}
+
+.change:hover {
+    background-color: rgb(81, 7, 138);
+
+}
+
+.grow {
+    background-color: rgb(255, 179, 0);
+}
+
+
+.grow:hover {
+    background-color: rgb(255, 179, 0);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.shrink {
+    background-color: rgb(255, 161, 0);
+}
+
+.shrink:hover {
+    background-color: rgb(255, 161, 0);
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+
+}
+
+.rotate {
+    background-color: rgb(255, 118, 0);
+}
+
+.rotate:hover {
+    background-color: rgb(255, 118, 0);
+    -webkit-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.circle {
+    background-color: rgb(255, 73, 0);
+}
+
+
+.circle:hover {
+    background-color: rgb(255, 73, 0);
+    border-radius: 50%;
+
+}
+
+.shadow {
+    background-color: rgb(255, 7, 0);
+}
+
+.shadow:hover {
+    background-color: rgb(255, 7, 0);
+    box-shadow: 
+    15px 15px rgb(1, 131, 137);
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing {
+    background-color: rgb(225, 0, 76);
+}
+
+
+.swing:hover {
+    background-color: rgb(225, 0, 76);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+.border {
+    background-color: rgb(228, 38, 135)
+}
+
+
+.border:hover {
+    background-color: rgb(228, 38, 135);
+    box-shadow: inset 0 0 0 25px rgb(36, 219, 68);
+
+}
