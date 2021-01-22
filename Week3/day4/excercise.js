@@ -81,8 +81,11 @@
 
 // name_user1, name_user2 and 3 more are online
 
-let name_user1 = "Lea123";
-let name_user2 = "Princess45";
-let name_user3 = "cat&doglovers";
-let name_user4 = "helooo@000";
 
+let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
+
+if (users.length === -1) {
+    console.log("No one is online");
+}
+
+//Note to Chaim - don't understand :( Please help!)
