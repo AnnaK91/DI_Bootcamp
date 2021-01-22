@@ -154,15 +154,15 @@
 
 //DO WHILE
 
-let i = 1;
+// let i = 1;
 
-do {
-  console.log(i);
+// do {
+//   console.log(i);
 
-  i++;
-}
+//   i++;
+// }
 
-while (i <= 10);
+// while (i <= 10);
 
 
 
