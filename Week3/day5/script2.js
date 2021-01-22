@@ -1,3 +1,6 @@
+// class excercise 2
+
+
 // let names= ["john", "sarah", 23, "Rudolf",34]
 
 

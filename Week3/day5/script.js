@@ -1,4 +1,8 @@
-// for (let i= 0; i <=15; i++) {
+// Class excercise 1
+
+
+
+/ for (let i= 0; i <=15; i++) {
 //     console.log(i);
 // }
 // if (i === 0) {
