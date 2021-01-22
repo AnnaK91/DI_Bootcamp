@@ -84,8 +84,14 @@
 
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
 
-if (users.length === -1) {
-    console.log("No one is online");
+// console.log(users.length)
+
+if (users.length == 0) {
+    console.log("No one is online")
 }
+
+// if (users.length == -1) {
+//     console.log("No one is online");
+// }
 
 //Note to Chaim - don't understand :( Please help!)
