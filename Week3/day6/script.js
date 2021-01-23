@@ -126,3 +126,86 @@
 //     }
 //     alert("Too big")
 // }
+
+
+// Excercise 4
+
+// Ask the student for his name :
+// If the name is in the object, console.log the name of the student and the country he comes from.
+// "Hi! I'm [name], and I'm from [country]."
+// Hint: Look up the statement if in
+// If the name is not in the object, console.log :"Hi! I'm a guest."
+
+// let guestList = {
+//     randy: "Germany",
+//     karla: "France",
+//     wendy: "Japan",
+//     norman: "England",
+//     sam: "Argentina"
+//   }
+
+// let guestlist = [guestList] 
+
+// console.log(guestlist);
+
+// let dinner = [];
+
+
+
+
+
+
+// let g1 = {
+
+//     name: "randy",
+//     country: "Germany"
+// }
+
+// let g2 = {
+
+//     name: "karla",
+//     country: "France"
+// }
+
+// let g3 = {
+
+//     name: "wendy",
+//     country: "Japan"
+// }
+
+// let g4 = {
+//     name: "norman",
+//     country: "England"
+// }
+// let g5 = {
+//     name: "sam",
+//     country: "Argentina"
+// }
+
+// dinner.push(g1,g2,g3,g4,g5);
+// console.log(dinner);
+
+// // Can't continue 
+
+
+// // 5. excercise
+
+// let family = { dad:"Sam", eyeColor:"brown", age:65}
+
+// // displays the properties
+
+// // for (let x in family) {
+// //     console.log(x)
+// // }
+
+
+// // displays the values
+
+// for (let x in family) {
+//     console.log(family[x])
+// }
+
+
+// Excercise 6 
+
+// I don't know 
