@@ -46,7 +46,7 @@ while (count > 0) {
     count = count - takeout + 1;
 }
     else {
-        (count < 1)
-    }
-        console.log(count + " " + "No more bottles of beer on the wall")
+    (count < 1)
+}
+console.log(count + " " + "No more bottles of beer on the wall")
 }
