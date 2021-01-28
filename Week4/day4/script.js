@@ -27,17 +27,26 @@
 // Make sure you get the grammer right…
 // For 1 bottle, you pass “it” around.
 // For more than one bottle, you pass “them” around
-var number = prompt("Give me a number")
-var word = "bottles";
-// console.log(number);
-var count = number;
+var count = prompt("Give me a number")
+var takeout = 1;
 while (count > 0) {
-        var bottle = count == 1 ? "bottle" : "bottles";
-console.log(count + " " + word + " of beer on the wall");
-console.log(count + " " + word + " of beer on the wall");
-console.log(count + " " + word + " of beer,");
-console.log("Take one down, pass it around,");
---count;
-}
+    if (count == 1) {
 
-// // Note to Chaim - I understand that I need to make a general variable that I can increment. But I don't know how :( This is as far as I could go.
+        console.log(count + " " + "bottles of beer on the wall");
+        console.log("Take" + takeout + "down, pass it around");
+    }
+    if (takeout == 1) {
+        console.log(count + " " + "bottles of beer on the wall");
+        console.log("Take " + takeout++ + " down, pass it around,")
+    }
+
+    console.log(count + " " + "bottles of beer on the wall");
+    console.log(count + " " + "bottles of beer,");
+    console.log("Take " + takeout++ + " down pass them around,");
+    count = count - takeout + 1;
+}
+    else {
+        (count < 1)
+    }
+        console.log(count + " " + "No more bottles of beer on the wall")
+}
