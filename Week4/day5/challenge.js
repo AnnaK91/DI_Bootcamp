@@ -16,17 +16,3 @@ for (i = 0; i < planetLength; i++) {
         newDiv.innerHTML = Planets[i];
         document.getElementsByTagName('body')[0].appendChild(newDiv);
     }
-
-
-
-// // 2. add a new li to the ul.
-
-
-// // var node = document.createElement("li");
-
-// // var textnode = document.createTextNode("Logout");
-
-// // node.appendChild(textnode);
-
-// // document.getElementById("myList").appendChild(node);
-// // node.innerHTML = '<a href="#"> Logout </a>';
