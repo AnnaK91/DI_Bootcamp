@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Challenge: Mad Libs</title>
+</head>
+
+<body>
+
+    <h1>Mad Libs</h1>
+
+    <ul>
+        <li>Noun: <input type="text" id="noun"></li>
+        <li>Adjective: <input type="text" id="adjective"></li>
+        <li>Someone's Name: <input type="text" id="person"></li>
+    </ul>
+
+    <button id="lib-button">Lib it!</button>
+
+    <p>Generated story:
+        <span id="story"></span>
+    </p>
+
+    <script>
+        let libButton = document.getElementById('lib-button');
+        let libIt = function () {
+            let storyDiv = document.getElementById("story");
+            storyDiv.innerHTML = "??Your story here";
+        };
+        libButton.addEventListener('click', libIt);
+
+        function getvalue() {
+
+            let list = document.getElementsByTagName('li');
+            console.log(list);
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- // Exercise 1:
+
+// Write a JavaScript function to get the values of First and Last name of the following form
+
+// <html>
+// -->
+
+<!-- <body>
+    // <form id="form1" onsubmit="getvalue()">
+        // <label>First name: </label><input type="text" name="fname" value="David"><br>
+        // <label>Last name: </label><input type="text" name="lname" value="BenGurion"><br>
+        // <input type="submit" value="Submit">
+        // </form>
+    // </body>
+//
+
+</html>
+
+// Answer:
+
+
+// function getvalue() {
+
+// //alert('Form Submitted');
+
+// //// Prevents the default action of a form in the browser which is: refreshing the page
+// event.preventDefault();
+
+// form = document.getElementById('form1');
+// //console.log(form);
+
+// //// Getting the first input tag
+// //console.log(form.elements.fname);
+// //console.log(form.elements[0]);
+
+// //// Getting the second input tag
+// //console.log(form.elements.lname);
+// //console.log(form.elements[1]);
+
+// ////Store the 2 inputs in variables to get the values
+// firstName = form.elements.fname.value
+// lastName = form.elements.lname.value
+
+// console.log(firstName);
+// console.log(lastName);
+
+// } -->
