@@ -107,6 +107,9 @@
 # x.add_animal(Giraffe)
 
 class Zoo:
+
+animals = []
+
     def __init__(self, zoo_name):
         self.zoo_name = zoo_name
     
