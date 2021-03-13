@@ -2,7 +2,7 @@ class Human:
     id_number = ""
     name = ""
     age 
-    priority = None
+    priority = True
     bood_type = ""
 
 
