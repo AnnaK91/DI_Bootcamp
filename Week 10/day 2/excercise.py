@@ -6,3 +6,7 @@ def give_a_random_number():
 
 
 give_a_random_number()
+
+
+#Don't know how to compare
+
