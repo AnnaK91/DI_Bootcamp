@@ -2,7 +2,7 @@ import flask
 import random
 
 import requests     # "Module not found" --> pip install requests
-
+import datetime
 url = "https://newsapi.org/v2/everything"
 token = "5719809a4f814d0d9f8cb98e7a3d97de"
 
@@ -96,7 +96,18 @@ def news(topic):
 #     return flask.render_template("articles.html", name="Rick")
 
 
+# day 3
+
+# daytime
+
+@app.route("/hour")
+def hour():
+
+    d = datetime.datetime.now()
+    return flask.render_template("hour.html", date_obj=d)
 
 
-app.run(port=5001, debug = True)
+
+
+app.run(port=5002, debug = True)
 
