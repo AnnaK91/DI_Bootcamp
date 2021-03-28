@@ -51,15 +51,3 @@ print("|^^^^^^^^^^^^^^^^^|")
 print("|:B:i:r:t:h:d:a:y:|")
 print("|                 |")
 print("~~~~~~~~~~~~~~~~~~~")
-
-
-# birth_year = int(input("What's your birth year ? /YYYY/\n"))
-# birth_month = int(input("What's your birth month ? /MM/\n"))
-# birth_day = int(input("What's your birth day ? /DD/\n"))
-
-# # d = datetime.datetime.today().day
-# # m = datetime.datetime.today().month
-# # y = datetime.datetime.today().year
-
-
-# print(birth_year, birth_month, birth_day)
