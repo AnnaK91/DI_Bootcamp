@@ -11,11 +11,8 @@ def home():
 
 
 
-# @app.route("/blue")
+@app.route("/red")
+def color():
+    return flask.render_template("red.html")
 
-# def blue():
-
-
-app.run(port=5000, debug = True)
-
-
+app.run(port=5001, debug = True)

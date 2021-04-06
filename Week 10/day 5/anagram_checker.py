@@ -22,7 +22,7 @@ print(ana.is_valid_word("blabla"))
 
 
     def is_anagram(self, word1, word2):
-        if word1 in self.text:
+        
 
 
 
