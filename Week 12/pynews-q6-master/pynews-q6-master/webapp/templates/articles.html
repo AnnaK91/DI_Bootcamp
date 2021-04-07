@@ -1,17 +1,9 @@
 {% extends "base.html" %} {% block content %}
-
-
 <ul>
-
-    {% for articles in article %}
-
+    {% for article in articles %}
     <li>
-
-        <p>{{ article["title"]}}</p>
-
+        <p>{{ article["title"] }}</p>
     </li>
-
     {% endfor %}
 </ul>
-
 {% endblock %}

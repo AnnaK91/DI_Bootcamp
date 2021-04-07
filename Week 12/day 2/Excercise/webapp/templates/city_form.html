@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+<form action="" method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.citys_name.label }} {{ form.citys_name() }}
+    </p>
+    <p>
+        {{ form.citys_country.label }} {{ form.citys_country() }}
+    </p>
+    <p>
+        {{ form.number_of_inhabitants.label }} {{ form.number_of_inhabitants() }}
+    </p>
+    <p>
+        {{ form.citys_area.label }} {{ form.citys_area() }}
+    </p>
+    {{ form.submit() }}
+</form>
+{% endblock %}
