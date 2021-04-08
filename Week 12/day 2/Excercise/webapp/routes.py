@@ -26,9 +26,22 @@ def addcity():
 
     if flask.request.method == "POST":
         if form.validate_on_submit():
-            citys_name = form.citys_name.data
-            citys_country = form.citys_country.data
-            number_of_inhabitants = form.number_of_inhabitants.data
-            citys_area = form.citys_area.data
+            name = form.citys_name.data
+            country = form.citys_country.data
+            inhabitants = form.number_of_inhabitants.data
+            area = form.citys_area.data
+        
+        return flask.render_template("cities.html", name=name, country=country, inhabitants=inhabitants, area=area)
 
     return flask.render_template("city_form.html", form=form)
+
+@app.route("/all-cities")
+
+def allCities():
+
+    return flask.render_template("cities.html")
+
+app.run(port=5000, debug=True)
+
+
+

@@ -4,12 +4,11 @@ import flask
 
 import random
 import string
+from config import Config
 
 app = flask.Flask(__name__)
 
-
-from config import Config
-
 app.config.from_object(Config)
 
+from . import routes
 
