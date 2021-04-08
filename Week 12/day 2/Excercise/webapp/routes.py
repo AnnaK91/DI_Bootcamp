@@ -41,7 +41,4 @@ def allCities():
 
     return flask.render_template("cities.html")
 
-app.run(port=5000, debug=True)
-
-
 
